@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certificate of Something</title>
+    <title>Certificate Forge</title>
     <link rel="stylesheet" href="apps.css">
 </head>
+
 <body>
     <h1>
-        Claim your <em>authentic</em> certificate here!
+        Craft your <em>authentic</em> certificate here!
     </h1>
+    <br>
+    <div class="pagewrapper">
+        <section class="left">
+            <div class="certificate">
+                <span id="nameTag">Title</span>
+            </div>
+        </section>
+        <section class="right">
+            <form action="" id="myForm">
+                <input type="text" name="name" id="name" placeholder="Enter title">
+                <input type="submit">
+
+            </form>
+        </section>
+    </div>
+    <br>
+    <div class="pagewrapper">
+        <section class="left">
+            <div class="certificate">
+                <span id="nameTag">Recipient</span>
+            </div>
+        </section>
+        <section class="right">
+            <form action="" id="myForm">
+                <input type="text" name="name" id="name" placeholder="ur name">
+                <input type="submit">
+            </form>
+        </section>
+    </div>
+    <br>
+    <div>
+        <div>
+            <span id="nameTag">Would u kill 4 this award?</span>
+        </div>
+        <select name="type" id="type">
+            <option value="A">select an option</option>
+            <option value="B">Hell yeah!</option>
+            <option value="C">Of course not!</option>
+        </select>
+    </div>
 </body>
+
 </html>
