@@ -66,6 +66,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
+let balls = ("Welcome to Certificate Forge!");
+alert(balls);
 
 /* Additional things to be aware of */
 
