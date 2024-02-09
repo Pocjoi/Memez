@@ -67,13 +67,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
+/* Additional things to be aware of */
 
 
 
 
 
 
+function processForm(form){
 
-// function processForm(form){
-
-// }
+}
