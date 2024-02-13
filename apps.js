@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     // check for buttons exist
-    if ( document.querySelectorAll('.button') !== null) {
+    if (document.querySelectorAll('.button') !== null) {
         let buttons = document.querySelectorAll('.button');
         buttons.forEach(button => button.addEventListener('click', processForm))
     }
@@ -36,38 +36,45 @@ document.addEventListener("DOMContentLoaded", function () {
         nameOutput.innerText = formData.name;
         info.innerText = formData.type;
 
-      });
+    });
     // Log readiness to console
     console.log("Ready");
 
     // let info = document.getElementById('info');
     // info.classList.add('test');
-    
-    
-    
+
+
+
     // certificate.classList.add('number1');
-    
-    function changeCert(value){
+
+    function changeCert(value) {
         let certificate = document.getElementById('certificate');
         certificate.classList = ""; // clear classes on each function call
-        switch(value){
+        switch (value) {
             case 'A':
                 certificate.classList.add('number1');
-            break;
+                break;
             case 'B':
                 certificate.classList.add('number2');
-            break;
+                break;
             case 'C':
                 certificate.classList.add('number3');
-            break;
+                break;
             case 'D':
                 certificate.classList.add('number4');
-            break;
+                break;
         }
     }
 });
-let balls = ("Welcome to Certificate Forge!");
-alert(balls);
+
+if (document.getElementById('print') !== null) {
+    let printElement = document.getElementById('print');
+    printElement.addEventListener('click', function (e) {
+        window.print();
+        console.log("invoke print");
+    })
+};
+
 
 /* Additional things to be aware of */
 
@@ -76,6 +83,6 @@ alert(balls);
 
 
 
-function processForm(form){
+function processForm(form) {
 
 }

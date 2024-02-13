@@ -4,7 +4,7 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: VT323;
     color: #00e21add;
-    margin: 0;
+    margin: 1em;
 }
 
 * {
@@ -12,7 +12,7 @@ body {
 }
 
 div>.info {
-    color: red;
+    color: rgb(255, 247, 247);
 }
 
 .pagewrapper {
@@ -31,22 +31,76 @@ div>.info {
     background-color: rgb(0, 0, 0);
     padding: .5em;
     border-width: 1em;
-    border-color: white;
 }
 
-.number1 {
+.number2 {
     display: flex;
-    background-image: url("/images/Placeholder.jpg");
+    background-image: url("/images/Worldstar.jpg");
     height: 100vH;
     width: 100em;
     background-repeat: no-repeat;
     justify-content: center;
     align-content: center;
-
 }
 
-.number2 {}
+.number3 {
+    display: flex;
+    background-image: url("/images/Wasted.jpg");
+    height: 100vH;
+    width: 100em;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-content: center;
+}
 
-.number3 {}
+.number4 {
+    display: flex;
+    background-image: url("/images/Dragon\ \(1\).jpg");
+    height: 100vH;
+    width: 100em;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-content: center;
+}
 
-.number4 {}
+div>.fuckOff {
+    color: rgb(255, 255, 255);
+    opacity: 0;
+}
+
+div>.pagewrapper {
+    display: flex;
+}
+
+div>.thisShitBetterMove {
+    color: rgb(255, 162, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+    padding-top: 1em;
+    padding-right: 1.5em;
+    padding-bottom: .5em;
+}
+
+@media print {
+    #myForm {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    h1 {
+        display:none;
+    }
+
+    .certificate{
+        justify-content:center;
+        align-content:center;
+    }
+    .left{
+        width: 100%;
+    }
+}
