@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 body {
     background-color: rgb(255, 255, 255);
-    font-family: VT323;
+    font-family: Honk;
     color: #00e21add;
     margin: 1em;
+    font-size: 1em;
 }
 
 * {
@@ -55,7 +56,7 @@ div>.info {
 
 .number4 {
     display: flex;
-    background-image: url("/images/Dragon\ \(1\).jpg");
+    background-image: url("/images/Elvarg.jpg");
     height: 100vH;
     width: 100em;
     background-repeat: no-repeat;
@@ -73,14 +74,15 @@ div>.pagewrapper {
 }
 
 div>.thisShitBetterMove {
-    color: rgb(255, 162, 0);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10em;
+    font-size: 7em;
     padding-top: 1em;
     padding-right: 1.5em;
     padding-bottom: .5em;
+    font-family: VT323;
 }
 
 @media print {
