@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
 body {
     background-color: rgb(0, 0, 0);
     font-family: VT323;
@@ -94,14 +95,19 @@ div>.thisShitBetterMove {
     }
 
     h1 {
-        display:none;
+        display: none;
     }
 
-    .certificate{
-        justify-content:center;
-        align-content:center;
+    .certificate {
+        justify-content: center;
+        align-content: center;
     }
-    .left{
+
+    .left {
         width: 100%;
+    }
+
+    #shit {
+        display: none;
     }
 }
