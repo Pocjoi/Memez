@@ -6,7 +6,7 @@ body {
     font-family: VT323;
     color: #00e21add;
     margin: 1em;
-    cursor: crosshair;
+    cursor: url('/images/flipped\ cursor.webp');
 }
 
 * {
