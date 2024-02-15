@@ -1,3 +1,8 @@
+function getId(element){
+    return document.getElementById(element);
+}
+console.log
+
 // Add Event listners when DOM is ready
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -9,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // optionally update when fields update
     // tbd
-    document.getElementById('name').addEventListener('change', function (eventData) {
+    getId('name').addEventListener('change', function (eventData) {
         let nameOutput = document.getElementById('nameOutput');
         // console.log(eventData);
         nameOutput.innerText = eventData.target.value;

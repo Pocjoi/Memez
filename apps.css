@@ -79,9 +79,8 @@ div>.thisShitBetterMove {
     justify-content: center;
     align-items: center;
     font-size: 7em;
-    padding-top: 1em;
+    padding-top: 1.3em;
     padding-right: 1.5em;
-    padding-bottom: .5em;
     font-family: Honk;
 }
 
@@ -109,5 +108,9 @@ div>.thisShitBetterMove {
 
     #shit {
         display: none;
+    }
+
+    .thisShitBetterMove{
+        padding-bottom: .7em;
     }
 }
