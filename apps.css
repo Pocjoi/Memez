@@ -6,6 +6,7 @@ body {
     font-family: VT323;
     color: #00e21add;
     margin: 1em;
+    cursor: crosshair;
 }
 
 * {
@@ -110,7 +111,7 @@ div>.thisShitBetterMove {
         display: none;
     }
 
-    .thisShitBetterMove{
+    .thisShitBetterMove {
         padding-bottom: .7em;
     }
 }

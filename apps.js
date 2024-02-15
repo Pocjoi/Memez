@@ -1,7 +1,10 @@
-function getId(element){
+function getId(element) {
     return document.getElementById(element);
 }
-console.log
+
+// function getElements(selector){
+//     return document.
+// }
 
 // Add Event listners when DOM is ready
 document.addEventListener("DOMContentLoaded", function () {
@@ -84,9 +87,7 @@ if (document.getElementById('print') !== null) {
 /* Additional things to be aware of */
 
 
-
-
-
+// arrow functions are funky as shit
 
 function processForm(form) {
 
