@@ -71,6 +71,9 @@ document.addEventListener("DOMContentLoaded", function () {
             case 'D':
                 certificate.classList.add('number4');
                 break;
+            case 'E':
+                certificate.classList.add('number5');
+                break;
         }
     }
 });

@@ -65,6 +65,16 @@ div>.info {
     align-content: center;
 }
 
+.number5 {
+    display: flex;
+    background-image: url("/images/ff2.png");
+    height: 100vH;
+    width: 100em;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-content: center;
+}
+
 div>.fuckOff {
     color: rgb(255, 255, 255);
     opacity: 0;
