@@ -67,7 +67,7 @@ div>.info {
 
 .number5 {
     display: flex;
-    background-image: url("/images/ff2.png");
+    background-image: url("/images/finalfantasy2.png");
     height: 100vH;
     width: 100em;
     background-repeat: no-repeat;
@@ -93,6 +93,17 @@ div>.thisShitBetterMove {
     padding-top: 1.3em;
     padding-right: 1.5em;
     font-family: Honk;
+}
+
+div>.thisShitBetterMove>.number5 {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7em;
+    padding-top: 1.3em;
+    padding-right: 1.5em;
+    font-family: VT323;
 }
 
 @media print {
