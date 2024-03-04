@@ -95,16 +95,6 @@ div>.thisShitBetterMove {
     font-family: Honk;
 }
 
-div>.thisShitBetterMove>.number5 {
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 7em;
-    padding-top: 1.3em;
-    padding-right: 1.5em;
-    font-family: VT323;
-}
 
 @media print {
     #myForm {
